@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/Andy/Dropbox/College/Senior/Mobile/Proj3/CS403XProject3/res/values/strings.xml -->
+    <!-- From: file:/Users/Lauren/Downloads/android-step-counter-master/res/values/strings.xml -->
     <eat-comment/>
     <string name="app_name">CounterActivity</string>
 </resources>

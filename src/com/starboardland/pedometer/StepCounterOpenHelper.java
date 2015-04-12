@@ -33,7 +33,7 @@ public class StepCounterOpenHelper extends SQLiteOpenHelper {
         db.execSQL("INSERT INTO stepCounts(Minute,Count) VALUES (6,0)");
         db.execSQL("INSERT INTO stepCounts(Minute,Count) VALUES (7,0)");
         db.execSQL("INSERT INTO stepCounts(Minute,Count) VALUES (8,0)");
-        db.execSQL("INSERT INTO stepCounts(Minute,Count) VALUES (total,0)");
+        db.execSQL("INSERT INTO stepCounts(Minute,Count) VALUES (9,0)");
     }
 
     @Override
