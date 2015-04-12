@@ -193,13 +193,18 @@ public class CounterActivity extends Activity implements SensorEventListener {
                 database.update("stepCounts", dbValues, where, whereArgs);
             }
 
+
             else {
                 //get total
-                
-
-                //set total
-                textViews[minute].setText(String.valueOf(0));
+                float totalNumber = 0;
+                for (Float f : minuteSteps) {
+                    totalNumber += f;
+                }
+                System.out.println("I THINK THIS THE TOTAL: " + totalNumber);
+                textViews[minute].setText(Float.toString(totalNumber));
             }
+
+
         }
     }
 
