@@ -3,6 +3,7 @@ package com.starboardland.pedometer;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.database.sqlite.SQLiteDatabase;
 import android.content.Context;
+import android.database.Cursor;
 
 /**
  * Created by Andy on 4/11/15.
@@ -33,11 +34,19 @@ public class StepCounterOpenHelper extends SQLiteOpenHelper {
         db.execSQL("INSERT INTO stepCounts(Minute,Count) VALUES (7,0)");
         db.execSQL("INSERT INTO stepCounts(Minute,Count) VALUES (8,0)");
         db.execSQL("INSERT INTO stepCounts(Minute,Count) VALUES (total,0)");
-
     }
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int OldVersion, int NewVersion){
         return;
+    }
+
+    public Cursor query(String query, SQLiteDatabase db) {
+        String select = null;
+        if(query.length() > 1) {
+            select = query;
+        }
+
+        return db.rawQuery(query, null);
     }
 }
