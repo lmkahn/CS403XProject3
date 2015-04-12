@@ -25,17 +25,19 @@ ADDED from AndroidManifest.xml:9:5
 		ADDED from AndroidManifest.xml:9:51
 activity#com.starboardland.pedometer.CounterActivity
 ADDED from AndroidManifest.xml:10:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:12:19
 	android:label
 		ADDED from AndroidManifest.xml:11:19
 	android:name
 		ADDED from AndroidManifest.xml:10:19
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from AndroidManifest.xml:12:13
+ADDED from AndroidManifest.xml:13:13
 action#android.intent.action.MAIN
-ADDED from AndroidManifest.xml:13:17
-	android:name
-		ADDED from AndroidManifest.xml:13:25
-category#android.intent.category.LAUNCHER
 ADDED from AndroidManifest.xml:14:17
 	android:name
-		ADDED from AndroidManifest.xml:14:27
+		ADDED from AndroidManifest.xml:14:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:15:17
+	android:name
+		ADDED from AndroidManifest.xml:15:27

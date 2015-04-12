@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Users/Lauren/Downloads/android-step-counter-master/assets"/></dataSet><dataSet config="debug"><source path="/Users/Lauren/Downloads/android-step-counter-master/src/debug/assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/Users/Andy/Dropbox/College/Senior/Mobile/Proj3/CS403XProject3/assets"/></dataSet><dataSet config="debug"><source path="/Users/Andy/Dropbox/College/Senior/Mobile/Proj3/CS403XProject3/src/debug/assets"/></dataSet></merger>
