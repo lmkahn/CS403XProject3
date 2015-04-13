@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
               android:gravity="center"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:name="com.google.android.gms.maps.SupportMapFragment"/>
     <LinearLayout
         android:id="@+id/steps1"
         android:layout_width="match_parent"
@@ -175,16 +181,6 @@
             android:layout_height="wrap_content"
             android:text="0"/>
     </LinearLayout>
-    <TextView android:textColor="@android:color/white"
-              android:layout_width="wrap_content"
-              android:layout_height="wrap_content"
-              android:layout_marginRight="5dp"
-              android:text="Step count since reboot:"/>
-    <TextView android:id="@+id/count"
-              android:textSize="36dp"
-              android:textColor="@android:color/white"
-              android:layout_width="wrap_content"
-              android:layout_height="wrap_content"/>
 </LinearLayout>
 
-<!-- From: file:/Users/Lauren/Downloads/android-step-counter-master/res/layout/main.xml -->
+<!-- From: file:/Users/Andy/Dropbox/College/Senior/Mobile/CS403XProject3/res/layout/main.xml -->
